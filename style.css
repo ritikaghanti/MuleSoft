@@ -1,0 +1,74 @@
+body{
+    background-image: url("bg2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+th,td{
+    border: 2px solid black;
+    border-collapse: collapse;
+    border-style:double;
+}
+table {
+    border: 2px solid black;
+    border-collapse: collapse;
+    border-style:double;
+    border-spacing: 30px;
+    position: absolute;
+    top: 9%;
+    left: 13%;
+}
+table.paleBlueRows {
+    width: 80%;
+    height: 200px;
+    text-align: center;
+    border-collapse: collapse;
+    margin-top: 50px;
+    margin-right:0px;
+    padding-top: 30px;
+}
+table.paleBlueRows > thead > tr:nth-of-type(1) {
+    font-size: larger;
+    background-color: darkgray;
+  }
+.button-13 {
+  background-color: #fff;
+  border: 1px solid #d5d9d9;
+  border-radius: 8px;
+  box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+  box-sizing: border-box;
+  color: #0f1111;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Amazon Ember",sans-serif;
+  font-size: 13px;
+  line-height: 29px;
+  padding: 0 10px 0 11px;
+  /* position: relative; */
+  position: absolute;
+    top: 35%;
+    left: 45%;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  width: 100px;
+}
+
+.button-13:hover {
+  background-color: #f7fafa;
+}
+
+.button-13:focus {
+  border-color: #008296;
+  box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+  outline: 0;
+}
+#credits{
+    color: rgb(184, 177, 177);
+    position: absolute;
+    top:93%
+}
