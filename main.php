@@ -70,7 +70,7 @@ $result=mysqli_query($conn,$query);
    </table>
    
 <style>    
-   tr:hover {background-color: coral;}
+   tr:hover {background-color: white;}
    th, td {
     padding: 8px;
     }
